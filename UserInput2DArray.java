@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class TwoDArrayInputOutput {
     public static void main(String[] args) {
-        // Declare a 2D array of size 10x10
         int[][] array = new int[10][10];
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter values for a 10x10 array:");
