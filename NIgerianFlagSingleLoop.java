@@ -1,10 +1,8 @@
 // 2a
 public class NigeriaFlagSingleLoop {
     public static void main(String[] args) {
-        int rows = 7;  // Number of rows
-        int columns = 15;  // Total width of the flag
-
-        // Using a single loop
+        int rows = 7;  
+        int columns = 15;  
         for (int i = 0; i < rows; i++) {
             StringBuilder row = new StringBuilder();
             for (int j = 0; j < columns; j++) {
